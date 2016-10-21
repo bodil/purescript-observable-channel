@@ -13,16 +13,16 @@
     "output"
   ],
   "dependencies": {
-    "purescript-prelude": "^1.0.1",
-    "purescript-observable": "^2.2.0",
-    "purescript-eff": "^1.0.0",
-    "purescript-refs": "^1.0.0",
-    "purescript-maps": "^1.1.0",
-    "purescript-tuples": "^1.0.0",
-    "purescript-foldable-traversable": "^1.0.0",
-    "purescript-catenable-lists": "^1.1.0"
+    "purescript-prelude": "^2.1.0",
+    "purescript-observable": "^3.0.0",
+    "purescript-eff": "^2.0.0",
+    "purescript-refs": "^2.0.0",
+    "purescript-maps": "^2.0.0",
+    "purescript-tuples": "^3.0.0",
+    "purescript-foldable-traversable": "^2.0.0",
+    "purescript-catenable-lists": "^3.0.0"
   },
   "devDependencies": {
-    "purescript-test-unit": "~9.0.0"
+    "purescript-test-unit": "~10.0.0"
   }
 }

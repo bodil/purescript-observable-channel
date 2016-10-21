@@ -2,7 +2,6 @@ module Test.Main where
 
 import Prelude
 import Data.Array as Array
-import Control.Alt ((<|>))
 import Control.Monad.Aff (later, forkAff, Aff, makeAff)
 import Control.Monad.Aff.AVar (AVAR)
 import Control.Monad.Eff (Eff)
@@ -12,7 +11,6 @@ import Control.Monad.Eff.Ref (REF, readRef, modifyRef, newRef)
 import Control.Monad.Eff.Timer (TIMER)
 import Control.Observable (zip3, OBSERVABLE, Observable, observe)
 import Control.Observable.Channel (close, send, asObservable, channel)
-import Data.Array ((..))
 import Data.Monoid (mempty, class Monoid)
 import Test.Unit (timeout, suite, test, Test)
 import Test.Unit.Assert (equal)
